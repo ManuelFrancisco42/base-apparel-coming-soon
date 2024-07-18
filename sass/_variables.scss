@@ -1,0 +1,32 @@
+/* 
+===============
+Variables Styles
+===============
+*/
+
+:root {
+/* Colors */
+
+// Primary
+--desaturated-red: hsl(0, 36%, 70%);
+--soft-red: hsl(0, 93%, 68%);
+
+// Neutral
+--dark-grayishred: hsl(0, 6%, 24%);
+
+  // Gradients
+--linear-135deg-from: hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+--linear-135deg-from: hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+
+/* Typography */
+
+// Body Copy
+--font-size-name-and-stats:  16px;
+
+// Font
+--font-family-JosefinSans:  'Kumbh Sans', sans-serif;
+--font-weight-JosefinSans-300: 300;
+--font-weight-JosefinSans-400: 400;
+--font-weight-JosefinSans-600:600 ;
+--font-weight-JosefinSans-700:700 ;
+}
