@@ -5,28 +5,46 @@ Variables Styles
 */
 
 :root {
-/* Colors */
+  /* Colors */
 
-// Primary
---desaturated-red: hsl(0, 36%, 70%);
---soft-red: hsl(0, 93%, 68%);
+  // Primary
+  --desaturated-red-primary-color: hsl(0, 36%, 70%);
+  --soft-red-primary-color: hsl(0, 93%, 68%);
 
-// Neutral
---dark-grayishred: hsl(0, 6%, 24%);
+  // Neutral
+  --dark-grayishred-neutral-color: hsl(0, 6%, 24%);
 
   // Gradients
---linear-135deg-from: hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
---linear-135deg-from: hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+  --linear-gradients-color-135deg-from: hsl(0, 0%, 100%);
+  --linear-gradients-color-135deg-to: hsl(0, 100%, 98%);
+  --linear-gradients-color-135-deg-from: hsl(0, 80%, 86%);
+  --linear-gradients-color-135-deg-to: hsl(0, 74%, 74%);
+/* rest of the colors */
+--black-color: #222;
+--white-color: #fff;
 
-/* Typography */
 
-// Body Copy
---font-size-name-and-stats:  16px;
+--small-text: 0.875rem;
+--extra-small-text: 0.7em;
+/* rest of the vars */
+--backgroundColor: var(--grey-50);
+--textColor: var(--grey-900);
+--borderRadius: 0.25rem;
+--letterSpacing-1: 2px;
+--letterSpacing-2: 8px;
+--transition: 0.3s ease-in-out all;
+--max-width: 1120px;
+--fixed-width: 600px;
 
-// Font
---font-family-JosefinSans:  'Kumbh Sans', sans-serif;
---font-weight-JosefinSans-300: 300;
---font-weight-JosefinSans-400: 400;
---font-weight-JosefinSans-600:600 ;
---font-weight-JosefinSans-700:700 ;
+  /* Typography */
+
+  // Body Copy
+  --font-size-name-and-stats: 16px;
+
+  // Font
+  --font-family-JosefinSans: 'Josefin Sans', sans-serif;
+  --font-weight-JosefinSans-300: 300;
+  --font-weight-JosefinSans-400: 400;
+  --font-weight-JosefinSans-600: 600;
+
 }

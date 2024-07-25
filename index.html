@@ -1,33 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <!-- Title -->
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-
   <!-- Google Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-
-<!-- Styles Css -->
- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <!-- Styles Css -->
+  <link rel="stylesheet" href="./dist/css/main.css">
+  <script type="module" src="./js/scripts.js"></script>
 </head>
-<body>
 
- 
-  
+<body>
+  <main class="container">
+
+    <section class="header-title text-transformation letterSpacing">
+      <div class="circle">
+        <div class="circle-inner"
+          style="--linear-gradient-color-from: 0, 80%, 86%; --linear-gradient-color-to: 0, 74%, 74%;"></div>
+      </div>
+      <div class="title">
+        <h1>Base<br>Apparel</h1>
+      </div>
+    </section>
+
+    <section class="card ">
+      <div class="card-image">
+        <picture>
+          <source srcset="./assets/images/hero-desktop.jpg" media="(min-width: 1440px)">
+          <source srcset="./assets/images/hero-mobile.jpg" media="(min-width: 375px)">
+          <img src="./assets/images/hero-desktop.jpg" alt="Girl posing">
+        </picture>
+      </div>
+    </section>
+
+    <section class="card-content flex-center-element ">
+      <div class="card-title mt-1">
+        <h2 class="title text-center text-colored">We're </h2>
+        <h2 class="title-1 text-center text-transformation">coming </h2>
+        <h2 class="title-1 text-center mb-1 text-transformation">soon </h2>
+        <p class="text">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to
+          stay up-to-date with announcements and our launch deals.</p>
+      </div>
+      <div class="email-form">
+        <div class="email-input-wrapper">
+          <input type="email" class="email-input" placeholder="Email Address" required>
+        </div>
+        <button class="submit-btn">
+          <span class="icon"><img src="./assets/images/icon-arrow.svg" class="input-text" alt="arrow" /></span>
+        </button>
+        <p class="error-message">Please provide a valid email</p>
+      </div>
+    </section>
+
+  </main>
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://www.mfrancisco.fr" target="_blank">Manuel Francisco</a>.
     </p>
   </footer>
   <!-- Script Javascript -->
-   <script src="./js/scripts.js"></script>
+  <script src="./js/scripts.js"></script>
 
 </body>
+
 </html>
