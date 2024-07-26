@@ -225,10 +225,6 @@ General Styles
 }
 
 .card {
-  /*   border: 1px solid #ca3434; */
-  /*   margin-left: 2rem;
-  margin-top: 2rem;
-  margin-bottom: -5rem; */
   overflow: hidden;
 }
 
@@ -257,7 +253,7 @@ General Styles
   background: linear-gradient(135deg, hsl(var(--linear-gradient-color-from)), hsl(var(--linear-gradient-color-to)));
   padding: 2px;
   border-radius: 50%;
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask: linear-gradient(#fff 0 0, #fff 100% 100%) content-box, linear-gradient(#fff 0 0, #fff 100% 100%);
   -webkit-mask-composite: destination-out;
   mask-composite: exclude;
 }
