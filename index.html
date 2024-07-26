@@ -15,7 +15,7 @@
     rel="stylesheet">
   <!-- Styles Css -->
   <link rel="stylesheet" href="./dist/css/main.css">
-  <script type="module" src="./js/scripts.js"></script>
+ 
 </head>
 
 <body>
@@ -35,8 +35,8 @@
       <div class="card-image">
         <picture>
           <source srcset="./assets/images/hero-desktop.jpg" media="(min-width: 1440px)">
-          <source srcset="./assets/images/hero-mobile.jpg" media="(min-width: 375px)">
-          <img src="./assets/images/hero-desktop.jpg" alt="Girl posing">
+          <!--           <source srcset="./assets/images/hero-mobile.jpg" media="(min-width: 375px)">
+ --> <img src="./assets/images/hero-desktop.jpg" alt="Girl posing">
         </picture>
       </div>
     </section>
@@ -53,10 +53,10 @@
         <div class="email-input-wrapper">
           <input type="email" class="email-input" placeholder="Email Address" required>
         </div>
-        <button class="submit-btn">
+        <button class="submit-btn" id="submit-btn">
           <span class="icon"><img src="./assets/images/icon-arrow.svg" class="input-text" alt="arrow" /></span>
         </button>
-        <p class="error-message">Please provide a valid email</p>
+        <p class="error-message"></p>
       </div>
     </section>
 
